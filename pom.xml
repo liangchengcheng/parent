@@ -13,6 +13,7 @@
         <module>api_user</module>
         <module>user</module>
         <module>api_goods</module>
+        <module>web_user</module>
     </modules>
     <properties>
 
