@@ -22,14 +22,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="api_goods" />
         <module name="api_user" />
         <module name="common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api_goods" target="1.7" />
       <module name="api_user" target="1.7" />
       <module name="common" target="1.7" />
       <module name="parent" target="1.7" />
+      <module name="user" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -9,6 +9,8 @@
     <ignored path=".idea/dataSources.local.xml" />
     <ignored path="$PROJECT_DIR$/common/target/" />
     <ignored path="$PROJECT_DIR$/api_user/target/" />
+    <ignored path="$PROJECT_DIR$/user/target/" />
+    <ignored path="$PROJECT_DIR$/api_goods/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,118 +28,105 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/api_goods/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="435">
+              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <file leaf-file-name="Goods.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api_goods/src/main/java/com/lcc/entity/Goods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisClusterCache.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/lcc/common/util/cache/RedisClusterCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            <state relative-caret-position="360">
+              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2217#2218#0" expanded="true" />
-                <element signature="e#2254#2255#0" expanded="true" />
-                <element signature="e#2537#2538#0" expanded="true" />
-                <element signature="e#2611#2612#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
+                <element signature="e#872#873#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#969#970#0" expanded="true" />
+                <element signature="e#1010#1011#0" expanded="true" />
+                <element signature="e#1044#1045#0" expanded="true" />
+                <element signature="e#1074#1075#0" expanded="true" />
+                <element signature="e#1102#1103#0" expanded="true" />
+                <element signature="e#1142#1143#0" expanded="true" />
+                <element signature="e#1176#1177#0" expanded="true" />
+                <element signature="e#1211#1212#0" expanded="true" />
+                <element signature="e#1244#1245#0" expanded="true" />
+                <element signature="e#1293#1294#0" expanded="true" />
+                <element signature="e#1337#1338#0" expanded="true" />
+                <element signature="e#1371#1372#0" expanded="true" />
+                <element signature="e#1404#1405#0" expanded="true" />
+                <element signature="e#1453#1454#0" expanded="true" />
+                <element signature="e#1497#1498#0" expanded="true" />
+                <element signature="e#1527#1528#0" expanded="true" />
+                <element signature="e#1555#1556#0" expanded="true" />
+                <element signature="e#1595#1596#0" expanded="true" />
+                <element signature="e#1629#1630#0" expanded="true" />
+                <element signature="e#1659#1660#0" expanded="true" />
+                <element signature="e#1688#1689#0" expanded="true" />
+                <element signature="e#1728#1729#0" expanded="true" />
+                <element signature="e#1764#1765#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api_user/pom.xml">
+      <file leaf-file-name="GoodsService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api_goods/src/main/java/com/lcc/service/GoodsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="165">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api_user/src/main/java/com/lcc/entity/User.java">
+      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api_goods/src/main/java/com/lcc/entity/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
-                <element signature="e#790#791#0" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
-                <element signature="e#880#881#0" expanded="true" />
-                <element signature="e#915#916#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
-                <element signature="e#998#999#0" expanded="true" />
-                <element signature="e#1042#1043#0" expanded="true" />
-                <element signature="e#1071#1072#0" expanded="true" />
-                <element signature="e#1099#1100#0" expanded="true" />
-                <element signature="e#1138#1139#0" expanded="true" />
-                <element signature="e#1172#1173#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
+                <element signature="e#1033#1034#0" expanded="true" />
+                <element signature="e#1063#1064#0" expanded="true" />
+                <element signature="e#1107#1108#0" expanded="true" />
+                <element signature="e#1145#1146#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserExceptionEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api_user/src/main/java/com/lcc/enums/UserExceptionEnum.java">
+      <file leaf-file-name="CustomDateSerializer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api_goods/src/main/java/com/lcc/utils/CustomDateSerializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api_user/src/main/java/com/lcc/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisCache.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/lcc/common/util/cache/RedisCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -187,10 +176,16 @@
         <option value="$PROJECT_DIR$/common/src/main/java/com/lcc/common/util/number/NumberFormatUtils.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/lcc/common/util/cache/RedisCache.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/lcc/common/util/cache/RedisClusterCache.java" />
-        <option value="$PROJECT_DIR$/api_user/pom.xml" />
-        <option value="$PROJECT_DIR$/api_user/src/main/java/com/lcc/entity/User.java" />
         <option value="$PROJECT_DIR$/api_user/src/main/java/com/lcc/enums/UserExceptionEnum.java" />
         <option value="$PROJECT_DIR$/api_user/src/main/java/com/lcc/service/UserService.java" />
+        <option value="$PROJECT_DIR$/api_user/pom.xml" />
+        <option value="$PROJECT_DIR$/api_user/src/main/java/com/lcc/entity/User.java" />
+        <option value="$PROJECT_DIR$/user/pom.xml" />
+        <option value="$PROJECT_DIR$/api_goods/pom.xml" />
+        <option value="$PROJECT_DIR$/api_goods/src/main/java/com/lcc/utils/CustomDateSerializer.java" />
+        <option value="$PROJECT_DIR$/api_goods/src/main/java/com/lcc/entity/Goods.java" />
+        <option value="$PROJECT_DIR$/api_goods/src/main/java/com/lcc/entity/Order.java" />
+        <option value="$PROJECT_DIR$/api_goods/src/main/java/com/lcc/service/GoodsService.java" />
       </list>
     </option>
   </component>
@@ -208,8 +203,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="326" />
-    <option name="y" value="22" />
+    <option name="x" value="277" />
+    <option name="y" value="64" />
     <option name="width" value="1266" />
     <option name="height" value="735" />
   </component>
@@ -253,6 +248,170 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api_goods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api_goods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api_goods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api_goods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lcc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api_goods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lcc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api_goods" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lcc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -709,16 +868,16 @@
       <workItem from="1483329499368" duration="1652000" />
       <workItem from="1483334804488" duration="519000" />
       <workItem from="1483335327998" duration="209000" />
-      <workItem from="1483335540265" duration="8917000" />
+      <workItem from="1483335540265" duration="10474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11297000" />
+    <option name="totallyTimeSpent" value="12854000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="326" y="22" width="1266" height="735" extended-state="0" />
-    <editor active="false" />
+    <frame x="277" y="64" width="1266" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -732,7 +891,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19689542" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29493463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1069,16 +1228,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/lcc/common/util/number/NumberUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/text/NumberFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -1141,52 +1290,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_user/src/main/java/com/lcc/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1099#1100#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-            <element signature="e#1172#1173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api_user/src/main/java/com/lcc/enums/UserExceptionEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -1218,6 +1321,161 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api_user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/lcc/common/util/number/NumberUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_user/src/main/java/com/lcc/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1146#1147#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" selection-start-line="12" selection-start-column="4" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_goods/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_goods/src/main/java/com/lcc/utils/CustomDateSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_goods/src/main/java/com/lcc/entity/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_goods/src/main/java/com/lcc/entity/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
+            <element signature="e#1371#1372#0" expanded="true" />
+            <element signature="e#1404#1405#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
+            <element signature="e#1497#1498#0" expanded="true" />
+            <element signature="e#1527#1528#0" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#1595#1596#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+            <element signature="e#1659#1660#0" expanded="true" />
+            <element signature="e#1688#1689#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
+            <element signature="e#1764#1765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_goods/src/main/java/com/lcc/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1227,7 +1485,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.47208124" />
               </list>
             </option>
           </splitter-proportions>
@@ -1239,7 +1497,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.47208124" />
               </list>
             </option>
           </splitter-proportions>
@@ -1250,7 +1508,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.47208124" />
               </list>
             </option>
           </splitter-proportions>
@@ -1262,7 +1520,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.47208124" />
               </list>
             </option>
           </splitter-proportions>
@@ -1270,11 +1528,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>api_user</last-edited>
+          <last-edited>api_goods</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.47208124" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1294,11 +1553,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <last-edited>Maven: org.apache.activemq:activemq-core:5.7.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.47208124" />
               </list>
             </option>
           </splitter-proportions>

@@ -11,6 +11,8 @@
     <modules>
         <module>common</module>
         <module>api_user</module>
+        <module>user</module>
+        <module>api_goods</module>
     </modules>
     <properties>
 

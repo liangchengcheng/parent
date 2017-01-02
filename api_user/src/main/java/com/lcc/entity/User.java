@@ -1,6 +1,8 @@
 package com.lcc.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.lcc.common.util.number.NumberUtil;
+
 import java.io.Serializable;
 import java.util.Date;
 
