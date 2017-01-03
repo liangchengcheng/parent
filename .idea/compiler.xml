@@ -25,6 +25,7 @@
         <module name="api_goods" />
         <module name="api_user" />
         <module name="common" />
+        <module name="web_goods" />
         <module name="web_user" />
       </profile>
     </annotationProcessing>
@@ -34,6 +35,7 @@
       <module name="common" target="1.7" />
       <module name="parent" target="1.7" />
       <module name="user" target="1.7" />
+      <module name="web_goods" target="1.7" />
       <module name="web_user" target="1.7" />
     </bytecodeTargetLevel>
   </component>
