@@ -13,11 +13,12 @@ import java.util.List;
 public class UserServiceImpl implements UserService {
 
     private final Logger LOG = LoggerFactory.getLogger(this.getClass());
+
     @Autowired
     private UserDao userDao;
+
     @Autowired
     private RedisCache cache;
-
 
     @Override
     public List<User> getUserList(int offset, int limit) {
