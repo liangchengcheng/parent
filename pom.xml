@@ -15,6 +15,7 @@
         <module>api_goods</module>
         <module>web_user</module>
         <module>web_goods</module>
+        <module>service_user</module>
     </modules>
     <properties>
 
