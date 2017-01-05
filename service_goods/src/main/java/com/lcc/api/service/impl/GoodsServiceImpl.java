@@ -153,7 +153,7 @@ public class GoodsServiceImpl implements GoodsService{
             throw new RpcException(BizExceptionEnum.DB_UPDATE_RESULT_ERROR.getState(),
                     BizExceptionEnum.DB_UPDATE_RESULT_ERROR.getMsg());
         }
-        
+
         //userService是远程调用接口，无法由本独Spring事务管理 出错了无法回滚
         /*如下采用远程同步调用的方式，存在分布式事务的问题。
          count = userService.addScoreBySyn(100);

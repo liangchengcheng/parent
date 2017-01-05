@@ -17,6 +17,7 @@
         <module>web_goods</module>
         <module>service_user</module>
         <module>service_goods</module>
+        <module>mq_consumer</module>
     </modules>
     <properties>
 
